@@ -1,0 +1,122 @@
+<html>
+<body>
+<table  border="2" CELLPADDING="5" CELLSPACING="10" hieght="200" width="300">
+<tr align="center" BGCOLOR="#808080">
+<td>Version</td>
+<td>Code<p>name</td>
+<td>Release<p>date</td>
+<td>API level</td>
+<td>Distribution<p>( March4,2013)</td>
+</tr>
+
+
+
+
+<tr align="left">
+<td>4.2x</td>
+<td>Jelly<p>bean</td>
+<td>13,<p>11,2012</td>
+<td>17</td>
+<td>1.6%</td>
+</tr>
+
+
+
+
+<tr align="left">
+<td>4.1x</td>
+<td>jelly<p>bean</td>
+<td>9,<p>7,2012</td>
+<td>16</td>
+<td>14.9%</td>
+</tr>
+
+
+
+
+
+
+<tr  align="left">
+<td>4.0x</td>
+<td>ice cream<p>sandwich</td>
+<td>16,<P>12,2011</td>
+<td>15</td>
+<td>28.6</td>
+</tr>
+
+
+
+
+
+<tr align="left">
+<td>3.2</td>
+<td>honeycomb</td>
+<td>15,7,2011<p></td>
+<td>13</td>
+<td>0.9%</td>
+</tr>
+
+
+
+<tr align="left">
+<td>3.1</td>
+<td>honeycomb</td>
+<td>10,<p>5,2011</td>
+<td>12</td>
+<td>0.3%</td>
+</tr>
+
+
+
+
+<tr  align="left">
+<td>2.3.3-2.3.7</td>
+<td>gingerbread</td>
+<td>9,<p>2,2011</td>
+<td>10</td>
+<td>44%</td>
+</tr>
+
+
+<tr align="left">
+<td>2.3-2.3.2</td>
+<td>gingerbread</td>
+<td>6,<p>12,2010</td>
+<td>8</td>
+<td>0.2%</td>
+</tr>
+
+
+
+
+<tr align="left">
+<td>2.2</td>
+<td>froyo</td>
+<td>20,<p>5,2010</td>
+<td>8</td>
+<td>7.6%</td>
+</tr>
+
+
+<tr  align="left">
+<td>2.0-2.1</td>
+<td>eclair</td>
+<td>26,<p>10,2009</td>
+<td>7</td>
+<td>1.9%</td>
+</tr>
+
+
+
+<tr align="left">
+<td>1.6</td>
+<td>dount</td>
+<td>15,<p>8,2009</td>
+<td>4</td>
+<td>0.2%</td>
+</tr>
+
+
+
+</body>
+</html>

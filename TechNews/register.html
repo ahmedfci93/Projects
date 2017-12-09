@@ -1,0 +1,101 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<link rel="icon" href="./logo2.1.jpg" type="image/x-icon" />
+<link rel="shortcut icon" href="./logo2.1.jpg type="image/x-icon" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>project v2</title>
+<link href="styles.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+
+<audio controlLS>
+SCR="we no speak yolanda.mp3"
+</audio>
+
+<Script Language="JavaScript">
+function GetFullName()
+{
+  var FirstName, LastName, FullName;
+  FirstName = document.Register.txtFirstName.value;
+  LastName  = document.Register.txtLastName.value;
+  FullName  = FirstName + " " + LastName;
+  document.Register.txtFullName.value = FullName;
+}
+</Script>
+<script language="JavaScript" >
+function msg(){
+document.write("Thank You For Registration");
+}
+</script>       
+<div id="container">
+  <div id="Header"></div>
+  <div id="navigation">
+    <ul>
+    <li><a href="save all.html">Home</a></li>
+    <li><a href="technology.html">Technology</a></li>
+      <li><a href="android.html">Android</a></li>
+      <li><a href="apple.html">Apple</a></li>
+      <li><a href="google.html">Google</a></li>
+      <li><a href="images.html">Images</a></li>
+      <li><a href="register.html">Register</a></li>
+      <li><a href="contact us.html">Contact us</a></li>
+    </ul>
+  </div>
+  <div align="center">
+    <p>Would you like to register to  our website for the latest news
+   <font face="Verdana, Tahoma, Arial" size="3">
+<form name="Register">
+  <table border="0" cellpadding="4" cellspacing="4" align="left">
+    <tr>
+      <td width="100"><b>First Name:</b></td>
+      <td><input type="text" name="txtFirstName" size="14"></td>
+    </tr>
+    <tr>
+      <td width="100"><b>Last Name:</b></td>
+      <td><input type="text" name="txtLastName" size="14"></td>
+    </tr>
+	<tr>
+	<td align="left"><font =16><B>Gender:</B></font> </td> <td align="left"><br><ul><li><input type="radio" name="c_gender" value="male">Male</li>
+	<input type="radio" name="c_gender" value="female">Female</li>
+	</td>
+	</tr>
+    <tr>
+      <td width="100"><b>Full Name:</b></td>
+      <td><input type="text" name="txtFullName" size="30"></td>
+    </tr>
+<tr>
+<td><b>The Password:<b></td>
+<td><input type="password" name="The Password" value="" size="30"></td>
+</tr>   
+
+ <tr>
+      <td width="100"><b>Email:</b></td>
+      <td><input type="text" name="txtEmail" size="35"></td>
+    </tr>
+   <tr>
+      <td width="100"><b>Mobile:</b></td>
+      <td><input type="text" name="txtMobile" size="35"></td>
+    </tr>
+   <tr>
+      <td width="100"><br><br></td>
+      <td>
+        <input type="button" value="Show Full Name" onClick="GetFullName()">
+      </td>
+    </tr>
+  <tr>
+<td width="100"><br></td>
+<td> <input type="submit" value="send data"  onclick="msg();" size="40" /> </td>
+</tr>
+</table>
+</form>
+</font>
+  <div align="center"></div>
+  <div id="footer" align="left">
+    <div id="footer2"><a href="https://www.facebook.com"><img src="f_logo.jpg" alt="contact us on facebook" height="42" weight="42" /> <a href="https://www.twitter.com"><img src="twitter_newbird_boxed_whiteonblue.png" alt="contact us on twitter" height="42" weight="42" /> </a><a href="https://plus.google.com/?hl=en&partnerid=gplp0"><img src="Google-Plus-Logo.png" height="42" weight="42"  alt="contact us on google+"> </a></div>
+
+  </div>
+</div>
+</body>
+</html>

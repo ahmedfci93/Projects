@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1387818288 source:d:\stayaway\trials\dszft\list.c
+	"list.h"
+
+1387809659 d:\stayaway\trials\dszft\list.h
+	<string.h>
+	<stdio.h>
+
+1387819002 source:d:\stayaway\trials\dszft\main.c
+	<stdio.h>
+	<stdlib.h>
+	"list.h"
+

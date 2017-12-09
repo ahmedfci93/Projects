@@ -1,0 +1,73 @@
+@charset "utf-8";
+body {
+	font-family: "Arial Black", Gadget, sans-serif;
+	font-size: 12px;
+	line-height: 20px;
+	background-color: #D6D6D6;
+	background-image: url(6.png);
+}
+a:link    {color:blue;text-decoration: none;}
+a:visited {color:purple;text-decoration: none;}
+a:hover   {color:red;text-decoration: none;}
+a:active  {color:gray;text-decoration: none;}
+#container {
+	background-image: url(final.jpg);
+	background-repeat: repeat-y;
+	width: 728px;
+	margin-right: auto;
+	margin-left: auto;
+}
+#Header {
+	background-image: url(logo%20with%20shadow.jpg);
+	background-repeat: no-repeat;
+	clear: both;
+	height: 120px;
+	width: 728px;
+}
+#navigation {
+	float: left;
+	width: 235px;
+	background-color: #a6aeb4;
+}
+#navigation ul li a {
+}
+
+#navigation ul li {
+	list-style-type: none;
+}
+
+#content {
+	width: 493px;
+	float: left;
+	min-height: 150px;
+}
+#footer {
+	width: 728px;
+	background-repeat: no-repeat;
+	clear: both;
+	height: 45px;
+	background-image: url(footer.jpg);
+	background-color: #FFF;
+}
+#navigation ul li a {
+	font-size: 14px;
+	font-weight: bold;
+	color: #80BDF9;
+	background-color: #dee3e8;
+}
+#navigation ul li a:hover {
+	color: #F5A917;
+	background-color: #CCC;
+}
+
+
+#navigation ul li a {
+	text-decoration: none;
+	display: block;
+	width: 125px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	padding-left: 20px;
+	margin-bottom: 15px;
+	border: 1px solid #000;
+}
